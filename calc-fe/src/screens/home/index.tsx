@@ -19,7 +19,7 @@ interface Response {
 export default function Home() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [isDrawing, setIsDrawing] = useState(false);
-  const [color, setColor] = useState("rgb(220, 210, 210)");
+  const [color, setColor] = useState("rgb(255, 255, 255)");
   const [reset, setReset] = useState(false);
   const [dictOfVars, setDictOfVars] = useState({});
   const [result, setResult] = useState<GeneratedResult>();
